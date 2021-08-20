@@ -26,6 +26,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Detection.msg"
   "msg/Detections.msg"
   "msg/Mask.msg"
+  "msg/Location.msg"
+  "srv/GetLocations.srv"
   DEPENDENCIES std_msgs
 )
 
